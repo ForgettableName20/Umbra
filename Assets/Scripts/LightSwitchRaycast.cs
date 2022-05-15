@@ -20,7 +20,6 @@ public class LightSwitchRaycast : MonoBehaviour
             if(raycastObj != null)
             {
                 interactiveObj = raycastObj;
-                CrosshairChange(true);
             }
             else
             {
@@ -44,20 +43,7 @@ public class LightSwitchRaycast : MonoBehaviour
     {
         if(interactiveObj!= null)
         {
-            CrosshairChange(false);
             interactiveObj = null;
-        }
-    }
-
-    void CrosshairChange(bool on)
-    {
-        if (on)
-        {
-            crosshair.color = Color.red;
-        }
-        else
-        {
-            crosshair.color = Color.white;
         }
     }
 }

@@ -10,7 +10,6 @@ public class LightSwitch : MonoBehaviour
     [SerializeField] private UnityEvent lightOnEvent;
     [SerializeField] private UnityEvent lightOffEvent;
 
-
     public void InteractSwitch()
     {
         if (!isLightOn)
