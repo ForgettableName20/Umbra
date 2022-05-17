@@ -3,22 +3,7 @@ guid: 0d116882d9b07a74b967a0d9c70c8073
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 2becda60064327.5a3a5a50d538a
-    second: {fileID: 2800000, guid: 49f0fc96ae296fb4cb6dc85c4ac00e78, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 87712553-brushed-metal-texture
-    second: {fileID: 2800000, guid: 8445016303b68bc4380a9db275987ca6, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: unknown
-    second: {fileID: 2800000, guid: 6bf955813da068d43841ec53710a611c, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
