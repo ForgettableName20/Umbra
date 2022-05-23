@@ -5,10 +5,10 @@ using UnityEngine.Events;
 
 public class LightSwitch : MonoBehaviour
 {
-    [SerializeField] private bool isLightOn;
+    private bool isLightOn;
 
-    [SerializeField] private UnityEvent lightOnEvent;
-    [SerializeField] private UnityEvent lightOffEvent;
+    public UnityEvent lightOnEvent;
+    public UnityEvent lightOffEvent;
 
     public void InteractSwitch()
     {

@@ -17,10 +17,8 @@ public class TriggerOpenDoor : MonoBehaviour
     private void OnTriggerExit (Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            
+        {   
             myDoor.Play("DoorClose", 0, 0.0f);
- 
         }
     }
 }
