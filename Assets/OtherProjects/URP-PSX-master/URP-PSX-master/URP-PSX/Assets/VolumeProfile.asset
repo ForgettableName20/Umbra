@@ -16,13 +16,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   widthPixelation:
     m_OverrideState: 1
-    m_Value: 512
+    m_Value: 189.4
   heightPixelation:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 238.8
   colorPrecision:
     m_OverrideState: 1
-    m_Value: 4.6
+    m_Value: 339.6
 --- !u!114 &-758010384845797820
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -39,16 +39,16 @@ MonoBehaviour:
   m_AdvancedMode: 0
   patternIndex:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 119
   ditherThreshold:
     m_OverrideState: 1
-    m_Value: 5.22
+    m_Value: 56.49
   ditherStrength:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 11.2
   ditherScale:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 21.6
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
     m_Value: 10
   fogDistance:
     m_OverrideState: 1
-    m_Value: 2.9
+    m_Value: 31.4
   fogColor:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 0}
@@ -93,19 +93,19 @@ MonoBehaviour:
     showEyeDropper: 1
   fogNear:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 9.3
   fogFar:
     m_OverrideState: 0
-    m_Value: 81.3
+    m_Value: 45.1
   fogAltScale:
     m_OverrideState: 0
     m_Value: 10
   fogThinning:
     m_OverrideState: 0
-    m_Value: 458
+    m_Value: 100
   noiseScale:
     m_OverrideState: 1
-    m_Value: 843
+    m_Value: 100
   noiseStrength:
     m_OverrideState: 1
-    m_Value: 0.029
+    m_Value: 0.05
