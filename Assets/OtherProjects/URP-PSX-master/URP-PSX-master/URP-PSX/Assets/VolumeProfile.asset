@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5465396558801240472
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32eb3b8fb939d9b41b04b5621e6d36dd, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  fogDensity:
+    m_OverrideState: 0
+    m_Value: 1
+  fogDistance:
+    m_OverrideState: 0
+    m_Value: 10
+  fogColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  fogNear:
+    m_OverrideState: 0
+    m_Value: 1
+  fogFar:
+    m_OverrideState: 0
+    m_Value: 100
+  fogAltScale:
+    m_OverrideState: 0
+    m_Value: 10
+  fogThinning:
+    m_OverrideState: 0
+    m_Value: 100
+  noiseScale:
+    m_OverrideState: 0
+    m_Value: 100
+  noiseStrength:
+    m_OverrideState: 0
+    m_Value: 0.05
 --- !u!114 &-2649047749314681680
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -16,13 +60,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   widthPixelation:
     m_OverrideState: 1
-    m_Value: 189.4
+    m_Value: 220
   heightPixelation:
     m_OverrideState: 1
-    m_Value: 238.8
+    m_Value: 220
   colorPrecision:
     m_OverrideState: 1
-    m_Value: 339.6
+    m_Value: 338.84
 --- !u!114 &-758010384845797820
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -39,12 +83,12 @@ MonoBehaviour:
   m_AdvancedMode: 0
   patternIndex:
     m_OverrideState: 1
-    m_Value: 119
+    m_Value: 17
   ditherThreshold:
     m_OverrideState: 1
-    m_Value: 56.49
+    m_Value: 89.26
   ditherStrength:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 11.2
   ditherScale:
     m_OverrideState: 1
@@ -62,9 +106,9 @@ MonoBehaviour:
   m_Name: VolumeProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 169896938054019971}
   - {fileID: -2649047749314681680}
   - {fileID: -758010384845797820}
+  - {fileID: -5465396558801240472}
 --- !u!114 &169896938054019971
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -81,13 +125,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   fogDensity:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 2.39
   fogDistance:
     m_OverrideState: 1
     m_Value: 31.4
   fogColor:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    m_Value: {r: 0, g: 0, b: 0, a: 0.4117647}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
