@@ -60,13 +60,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   widthPixelation:
     m_OverrideState: 1
-    m_Value: 250
+    m_Value: 300
   heightPixelation:
     m_OverrideState: 1
-    m_Value: 250
+    m_Value: 300
   colorPrecision:
     m_OverrideState: 1
-    m_Value: 338.84
+    m_Value: 400
 --- !u!114 &-758010384845797820
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -86,7 +86,7 @@ MonoBehaviour:
     m_Value: 17
   ditherThreshold:
     m_OverrideState: 1
-    m_Value: 89.26
+    m_Value: 120
   ditherStrength:
     m_OverrideState: 1
     m_Value: 11.2
