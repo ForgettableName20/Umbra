@@ -20,6 +20,7 @@ namespace StarterAssets
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
+		public AudioSource Footsteps;
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
@@ -72,6 +73,7 @@ namespace StarterAssets
 		private const float _threshold = 0.01f;
 		
 		private bool IsCurrentDeviceMouse => _playerInput.currentControlScheme == "KeyboardMouse";
+		private bool isMoving;
 
 		private void Awake()
 		{
@@ -175,6 +177,21 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				/*if(_input.move.x < 0 || _input.move.x > 0 || _input.move.y < 0 || _input.move.y > 0)
+                {
+					isMoving = true;
+					if(isMoving)
+                    {
+						if(!Footsteps.isPlaying)
+                        {
+							Footsteps.Play(0);
+						}
+						else
+                        {
+							Footsteps.Stop();
+						}
+					}
+				}*/
 			}
 
 			// move the player
