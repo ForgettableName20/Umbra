@@ -177,21 +177,22 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
-				/*if(_input.move.x < 0 || _input.move.x > 0 || _input.move.y < 0 || _input.move.y > 0)
+				if(_input.move.x < 0 || _input.move.x > 0 || _input.move.y < 0 || _input.move.y > 0)
                 {
-					isMoving = true;
-					if(isMoving)
+					if(!Footsteps.isPlaying)
                     {
-						if(!Footsteps.isPlaying)
-                        {
-							Footsteps.Play(0);
-						}
-						else
-                        {
-							Footsteps.Stop();
-						}
+						isMoving = true;
+						Footsteps.Play(0);
 					}
-				}*/
+				}
+				else if (_input.move.x == 0 && _input.move.y == 0)
+				{
+					if(Footsteps.isPlaying)
+                    {
+						isMoving = false;
+						Footsteps.Stop();
+					}
+				}
 			}
 
 			// move the player

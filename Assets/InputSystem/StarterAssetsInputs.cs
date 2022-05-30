@@ -14,8 +14,6 @@ namespace StarterAssets
 		public bool sprint;
 		public AudioSource Footsteps;
 
-		private bool isMoving;
-
 		[Header("Movement Settings")]
 		public bool analogMovement;
 
@@ -56,21 +54,6 @@ namespace StarterAssets
 		public void MoveInput(Vector2 newMoveDirection)
 		{
 			move = newMoveDirection;
-			if (move.x < 0 || move.x > 0 && move.y < 0 || move.y > 0)
-			{
-				isMoving = true;
-				if (isMoving)
-				{
-					if (!Footsteps.isPlaying)
-					{
-						Footsteps.Play(0);
-					}
-					else
-					{
-						Footsteps.Stop();
-					}
-				}
-			}
 		} 
 
 		public void LookInput(Vector2 newLookDirection)
@@ -86,6 +69,17 @@ namespace StarterAssets
 		public void SprintInput(bool newSprintState)
 		{
 			sprint = newSprintState;
+
+			if (sprint)
+            {
+				sprint = true;
+				Footsteps.pitch = 1.5f;
+			}
+			else if (!sprint)
+            {
+				sprint = false;
+				Footsteps.pitch = 1f;
+			}
 		}
 
 #if !UNITY_IOS || !UNITY_ANDROID
