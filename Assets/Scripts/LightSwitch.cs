@@ -7,20 +7,20 @@ public class LightSwitch : MonoBehaviour
 {
     private bool isLightOn;
 
-    public UnityEvent lightOnEvent;
-    public UnityEvent lightOffEvent;
+    public UnityEvent triggerOnEvent;
+    public UnityEvent triggerOffEvent;
 
     public void InteractSwitch()
     {
         if (!isLightOn)
         {
             isLightOn = true;
-            lightOnEvent.Invoke();
+            triggerOnEvent.Invoke();
         }
         else
         {
             isLightOn = false;
-            lightOffEvent.Invoke();
+            triggerOffEvent.Invoke();
         }
     }
 
