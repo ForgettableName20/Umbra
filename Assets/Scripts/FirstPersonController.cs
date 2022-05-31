@@ -74,7 +74,7 @@ namespace StarterAssets
 		
 		private bool IsCurrentDeviceMouse => _playerInput.currentControlScheme == "KeyboardMouse";
 		private bool isMoving;
-
+		private Vector3 lastInputDirection;
 		private void Awake()
 		{
 			// get a reference to our main camera
@@ -177,22 +177,16 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
-				if(_input.move.x < 0 || _input.move.x > 0 || _input.move.y < 0 || _input.move.y > 0)
-                {
-					if(!Footsteps.isPlaying)
-                    {
-						isMoving = true;
-						Footsteps.Play(0);
-					}
-				}
-				else if (_input.move.x == 0 && _input.move.y == 0)
+
+				if (!Footsteps.isPlaying)
 				{
-					if(Footsteps.isPlaying)
-                    {
-						isMoving = false;
-						Footsteps.Stop();
-					}
-				}
+					Footsteps.Play(0);
+				}	
+			}
+			else
+			{
+				Debug.Log("Stop Sound");
+				Footsteps.Stop();
 			}
 
 			// move the player
