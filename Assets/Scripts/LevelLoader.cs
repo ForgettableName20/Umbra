@@ -8,11 +8,14 @@ public class LevelLoader : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
 
-    public int loadSceneIndex = 0;
-
-    void Start ()
+    void Start()
     {
-        StartCoroutine(LoadAsynchronously(loadSceneIndex));
+
+    }
+
+    public void LoadScene(int sceneIndex)
+    {
+        StartCoroutine(LoadAsynchronously(sceneIndex));
     }
 
     IEnumerator LoadAsynchronously (int sceneIndex)
@@ -22,10 +25,10 @@ public class LevelLoader : MonoBehaviour
         while (!operation.isDone)
         {
             float progress = Mathf.Clamp01(operation.progress / .9f);
-            Debug.Log(progress);
-
-
             slider.value = progress;
+
+            Debug.Log(progress);
+             
             yield return null;
         }
     }
