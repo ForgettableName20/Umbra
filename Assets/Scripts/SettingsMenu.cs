@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SettingsMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioMixer MainMixer;
+
     public void SetVolume(float volume)
     {
-        Debug.Log(volume);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        MainMixer.SetFloat("MasterVol", MasterVol);
+        MainMixer.SetFloat("MusicVol", MusicVol);
+        MainMixer.SetFloat("EffectsVol", EffectsVol);
     }
 }
