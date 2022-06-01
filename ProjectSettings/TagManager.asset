@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - PlayerObject
+  - Trash
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - UI
   - ewd
   - Camera
-  - 
-  - 
+  - AboveFloor
+  - BottomFloor
   - 
   - 
   - 
