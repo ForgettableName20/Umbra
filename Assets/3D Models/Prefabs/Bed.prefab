@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8226955793416052181}
   - component: {fileID: 4984578773168635210}
   - component: {fileID: 7418110198659182248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: almofada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5548632645226339858}
   - component: {fileID: 1271744572117313454}
   - component: {fileID: 7089812365762040036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: almofada.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4654225390140179076}
   - component: {fileID: -7707198689246008768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ Transform:
   m_GameObject: {fileID: 5466510102982334526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.98911905, y: 0.881038, z: 0.98911905}
   m_Children:
   - {fileID: 8226955793416052181}
   - {fileID: 1345279940074556370}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 72171245154851207}
   - component: {fileID: 4678615934650609861}
   - component: {fileID: 2357431885340722321}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Confortavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 7701830866425825957}
   - component: {fileID: 6926606313393873100}
   - component: {fileID: 7041780136445802438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ferro.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 1345279940074556370}
   - component: {fileID: 6449441672830463002}
   - component: {fileID: 1787279338559450820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: almofada.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
