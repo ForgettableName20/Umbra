@@ -185,7 +185,7 @@ namespace StarterAssets
 			}
 			else
 			{
-				Debug.Log("Stop Sound");
+				//Debug.Log("Stop Sound");
 				Footsteps.Stop();
 			}
 
