@@ -12,7 +12,6 @@ public class VolumeControl : MonoBehaviour
     [SerializeField] string EffectsVol = "EffectsVolume";
 
     [SerializeField] float _multiplier = 30f;
-    [SerializeField] private Toggle _toggle;
 
     public AudioMixer MainMixer;
 
