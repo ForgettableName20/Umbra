@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestLevel.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Loading.unity
-    guid: 0d732bf39260253408d1d70dcd248932
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2945307f719e57948b3764a17ea9c0ec
   - enabled: 1
     path: Assets/Scenes/Hospital.unity
     guid: b2122b746b2978f48b2b209eed410f27
