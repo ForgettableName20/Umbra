@@ -16,6 +16,7 @@ public class LevelLoader : MonoBehaviour
     public void LoadScene(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     IEnumerator LoadAsynchronously (int sceneIndex)

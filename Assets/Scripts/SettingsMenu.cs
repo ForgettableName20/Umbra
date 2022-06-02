@@ -9,8 +9,8 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        MainMixer.SetFloat("MasterVol", MasterVol);
-        MainMixer.SetFloat("MusicVol", MusicVol);
-        MainMixer.SetFloat("EffectsVol", EffectsVol);
+        //MainMixer.SetFloat("MasterVol", MasterVol);
+        //MainMixer.SetFloat("MusicVol", MusicVol);
+        //MainMixer.SetFloat("EffectsVol", EffectsVol);
     }
 }
