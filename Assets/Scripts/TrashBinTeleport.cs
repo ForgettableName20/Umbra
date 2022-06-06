@@ -8,6 +8,8 @@ public class TrashBinTeleport : MonoBehaviour
 
     public GameObject TrashBin;
     public GameObject Trigger;
+    public GameObject ItemCamera;
+    public GameObject Crosshair;
 
     public AudioSource PlaceObject;
 
@@ -15,7 +17,7 @@ public class TrashBinTeleport : MonoBehaviour
     {
         if (other.CompareTag("Trash"))
         {
-            Debug.Log("Trigger!");
+            //Debug.Log("Picked Up!");
 
             TrashBin.transform.parent = null;
             TrashBin.transform.rotation = Quaternion.identity;
@@ -26,6 +28,8 @@ public class TrashBinTeleport : MonoBehaviour
             boxCol.enabled = !boxCol.enabled;
 
             Trigger.SetActive(false);
+            ItemCamera.SetActive(false);
+            Crosshair.SetActive(true);
         }
     }
 }
