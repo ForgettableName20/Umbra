@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TrashBinTeleport : MonoBehaviour
 {
+    private BoxCollider boxCol;
+
     public GameObject TrashBin;
     public GameObject Trigger;
 
@@ -14,10 +16,15 @@ public class TrashBinTeleport : MonoBehaviour
         if (other.CompareTag("Trash"))
         {
             Debug.Log("Trigger!");
+
             TrashBin.transform.parent = null;
             TrashBin.transform.rotation = Quaternion.identity;
-            TrashBin.transform.position = new Vector3(74.3700027f, 0.0240000002f, 27.5550003f);
+            TrashBin.transform.position = new Vector3(74.3700027f, -6.50899982f, 27.5550003f);
             PlaceObject.Play();
+
+            boxCol = TrashBin.GetComponent<BoxCollider>();
+            boxCol.enabled = !boxCol.enabled;
+
             Trigger.SetActive(false);
         }
     }

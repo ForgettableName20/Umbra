@@ -181,7 +181,7 @@ namespace StarterAssets
 				if (!Footsteps.isPlaying)
 				{
 					Footsteps.Play(0);
-				}	
+				}
 			}
 			else
 			{
