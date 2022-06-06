@@ -1,22 +1,19 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.InputSystem;
 using Cinemachine;
 
-public class UI_TransitionManager : MonoBehaviour
+public class UITransition : MonoBehaviour
 {
     public CinemachineVirtualCamera currentCamera;
-
     // Start is called before the first frame update
-    public void Start()
+    void Start()
     {
         currentCamera.Priority++;
     }
 
-    public void UpdateCamera(CinemachineVirtualCamera target)
+
+    public void UpdateCamera( CinemachineVirtualCamera target)
     {
         currentCamera.Priority--;
         currentCamera = target;
