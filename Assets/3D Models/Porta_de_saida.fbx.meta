@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Parte superior da porta
-    second: {fileID: 2100000, guid: 47098da49b8c58c43ada49279a6f5285, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: cceb9956bca8c524997a4f37650a0b51, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Porta do hospital
-    second: {fileID: 2100000, guid: 2c2e2adecccb5734d962c2a95e83d924, type: 2}
+      name: Porta de saida
+    second: {fileID: 2800000, guid: 4ecc9154597199246999b2f52fb11f12, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -7,28 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: d78a2719b42385d4da7adb6c445df16f, type: 2}
+      name: Ferro
+    second: {fileID: 2100000, guid: ab39e5218d7387e4882d022cc3cb5f94, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: d0283db2e8bb9f547b748efe828cdc9c, type: 2}
+      name: almofada
+    second: {fileID: 2100000, guid: d06b79938d530db4fb9663dec3485826, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 923cd92869a3ed4478d468374f9a13e3, type: 2}
+      name: cama
+    second: {fileID: 2100000, guid: e0c9b96ca3a91204ea1a845aa2f6d865, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: a300caecdec8b8e4fbedc3f86e267010, type: 2}
+      name: Confortavel1
+    second: {fileID: 2800000, guid: c67165099c361cd48be0b5f630c71564, type: 3}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: df7a653b3e947a64ca05a5a05caf3cbe, type: 2}
+      name: Ferro1
+    second: {fileID: 2800000, guid: 9e4cf4b325bba1942a2f2afcd60958a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: almofada.002
+    second: {fileID: 2800000, guid: d20458f4b04895947bbfb87acaf5123d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

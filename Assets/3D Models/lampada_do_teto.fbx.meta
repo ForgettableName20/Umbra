@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f500caaf5a7bdbd4db8821f7d7a50689
+guid: d8fa0c92a8b650f4a817ccc4f35b514e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: dc39ed73e015eee4f9d5e79f5b1ab8aa, type: 2}
+      name: Material.005
+    second: {fileID: 2100000, guid: 7f4c654cd5eab994fa7c6a791c743b69, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sphere
+    second: {fileID: 2800000, guid: 92d3cd80850ae1e49a390afc60a1e637, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
