@@ -5,11 +5,13 @@ using UnityEngine;
 public class TrashBinTeleport : MonoBehaviour
 {
     private BoxCollider boxCol;
+    private BoxCollider boxColLamp;
 
     public GameObject TrashBin;
     public GameObject Trigger;
     public GameObject ItemCamera;
     public GameObject Crosshair;
+    public GameObject NextObject;
 
     public AudioSource PlaceObject;
 
@@ -30,6 +32,12 @@ public class TrashBinTeleport : MonoBehaviour
             Trigger.SetActive(false);
             ItemCamera.SetActive(false);
             Crosshair.SetActive(true);
+
+            NextObject.transform.localPosition = new Vector3(-48.7509995f, -0.933000028f, -4.33400011f);
+            NextObject.transform.rotation = Quaternion.Euler(338.401611f, 90f, 270f);
+
+            boxColLamp = NextObject.GetComponent<BoxCollider>();
+            boxColLamp.enabled = true;
         }
     }
 }

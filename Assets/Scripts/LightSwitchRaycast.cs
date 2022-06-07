@@ -8,9 +8,6 @@ public class LightSwitchRaycast : MonoBehaviour
     [SerializeField] private int rayLength = 5;
     private LightSwitch interactiveObj;
 
-    [SerializeField] private RawImage crosshair;
-
-    public Color CrosshairColor = new Color(103, 179, 80);
     public GameObject interactPrompt;
 
     private void Update()
@@ -23,7 +20,7 @@ public class LightSwitchRaycast : MonoBehaviour
             if(raycastObj != null)
             {
                 interactiveObj = raycastObj;
-                CrosshairChange(true);
+                PromptChange(true);
             }
             else
             {
@@ -47,22 +44,19 @@ public class LightSwitchRaycast : MonoBehaviour
     {
         if(interactiveObj != null)
         {
-            CrosshairChange(false);
+            PromptChange(false);
             interactiveObj = null;
         }
     }
 
-    void CrosshairChange(bool on)
+    void PromptChange(bool on)
     {
         if (on)
         {
-            crosshair.color = CrosshairColor;
             interactPrompt.SetActive(true);
-
         }
         else
         {
-            crosshair.color = Color.white;
             interactPrompt.SetActive(false);
         }
     }
