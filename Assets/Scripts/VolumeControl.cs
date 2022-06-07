@@ -7,9 +7,9 @@ using UnityEngine.UI;
 
 public class VolumeControl : MonoBehaviour
 {
-    [SerializeField] string MasterVol = "MasterVolume";
-    [SerializeField] string MusicVol = "MusicVolume";
-    [SerializeField] string EffectsVol = "EffectsVolume";
+    [SerializeField] string MasterVol = "MasterVol";
+    [SerializeField] string MusicVol = "MusicVol";
+    [SerializeField] string EffectsVol = "EffectsVol";
 
     [SerializeField] float _multiplier = 30f;
 
@@ -22,6 +22,7 @@ public class VolumeControl : MonoBehaviour
     void Start()
     {
         MasterSlider.value = PlayerPrefs.GetFloat(MasterVol, MasterSlider.value);
+        Audio_Awake();
     }
 
     private void Audio_Awake()
@@ -36,7 +37,16 @@ public class VolumeControl : MonoBehaviour
 
     private void HandleSliderValueChanged(float value)
     {
-        MainMixer.SetFloat(MasterVol, value:Mathf.Log10(value) * _multiplier);
+        Debug.Log("Slider change");
+    }
+
+    public void ShowSliderValue()
+    {
+        string sliderMessage = "Slider value = " + MasterSlider.value;
+        Debug.Log(sliderMessage);
+       // MainMixer.SetFloat(MasterVol, value: Mathf.Log10(MasterSlider.value) * _multiplier);
+        MainMixer.SetFloat(MasterVol, value: MasterSlider.value);
+
     }
 
 }
