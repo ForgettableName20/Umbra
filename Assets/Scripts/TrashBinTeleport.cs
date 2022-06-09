@@ -7,6 +7,8 @@ public class TrashBinTeleport : MonoBehaviour
     private BoxCollider boxCol;
     private BoxCollider boxColLamp;
 
+    public Camera cam;
+
     public GameObject TrashBin;
     public GameObject Trigger;
     public GameObject ItemCamera;
@@ -38,6 +40,8 @@ public class TrashBinTeleport : MonoBehaviour
 
             boxColLamp = NextObject.GetComponent<BoxCollider>();
             boxColLamp.enabled = true;
+
+            cam.cullingMask = -1;
         }
     }
 }

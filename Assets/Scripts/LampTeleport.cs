@@ -7,6 +7,8 @@ public class LampTeleport : MonoBehaviour
     private BoxCollider boxCol;
     private BoxCollider boxColx;
 
+    public Camera cam;
+
     public GameObject Lamp;
     public GameObject Trigger;
     public GameObject ItemCamera;
@@ -22,8 +24,8 @@ public class LampTeleport : MonoBehaviour
             Debug.Log("Trigger!");
 
             Lamp.transform.parent = null;
-            Lamp.transform.rotation = Quaternion.identity;
-            Lamp.transform.position = new Vector3(74.3700027f, 0.0240000002f, 27.5550003f);
+            Lamp.transform.rotation = Quaternion.Euler(-90, 90, -90);
+            Lamp.transform.localPosition = new Vector3(24.868f, -5.11000013f, -12.467f);
             PlaceObject.Play();
 
             boxCol = Lamp.GetComponent<BoxCollider>();
@@ -38,6 +40,10 @@ public class LampTeleport : MonoBehaviour
 
             boxColx = NextObject.GetComponent<BoxCollider>();
             boxColx.enabled = true;
+
+            cam.cullingMask = -1;
+
+
         }
     }
 }
