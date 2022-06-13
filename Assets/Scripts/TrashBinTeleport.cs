@@ -41,7 +41,7 @@ public class TrashBinTeleport : MonoBehaviour
             boxColLamp = NextObject.GetComponent<BoxCollider>();
             boxColLamp.enabled = true;
 
-            cam.cullingMask = -1;
+            //cam.cullingMask = -1;
         }
     }
 }

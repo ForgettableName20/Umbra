@@ -35,13 +35,13 @@ public class LampTeleport : MonoBehaviour
             ItemCamera.SetActive(false);
             Crosshair.SetActive(true);
 
+            cam.cullingMask = -1;
+
             NextObject.transform.localPosition = new Vector3(-48.7509995f, -0.933000028f, -4.33400011f);
             NextObject.transform.rotation = Quaternion.Euler(338.401611f, 90f, 270f);
 
             boxColx = NextObject.GetComponent<BoxCollider>();
             boxColx.enabled = true;
-
-            cam.cullingMask = -1;
 
 
         }
