@@ -21,7 +21,7 @@ public class LampTeleport : MonoBehaviour
     {
         if (other.CompareTag("Lamp"))
         {
-            Debug.Log("Trigger!");
+            //Debug.Log("Picked Up!");
 
             Lamp.transform.parent = null;
             Lamp.transform.rotation = Quaternion.Euler(-90, 90, -90);
