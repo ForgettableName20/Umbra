@@ -7,13 +7,63 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 1df9f3f3364cee64b82583dd8a7c80f7, type: 2}
+      name: almofada
+    second: {fileID: 2100000, guid: 2a12bfb3732939f4aabf608a5540b70c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fundo da almoda
+    second: {fileID: 2100000, guid: 0f5e3196fcdf88147ba8cf4f66e74f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fundo da almofada
+    second: {fileID: 2100000, guid: 9c21786104c7eee468fc539dcbdd8b75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fundo das pernas
+    second: {fileID: 2100000, guid: f794bd02168873e46bba86fa33276cd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pernas
+    second: {fileID: 2100000, guid: dc9b5a95007c284468b4d7d01a70b269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topo
+    second: {fileID: 2100000, guid: 0b73595a26275594ea263b0ce625dd2c, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Cadeira
-    second: {fileID: 2800000, guid: a4c31d93fc465e941b5f444183be57e9, type: 3}
+      name: almofada
+    second: {fileID: 2800000, guid: 5508cd1400ac63d46ac281692d815133, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: baixo da almofada
+    second: {fileID: 2800000, guid: f5ac5ec29bc75624eb7ccef4ea454e5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escuro da almofada
+    second: {fileID: 2800000, guid: 89a1380f2a576bd49a16a6ac8687d449, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fundo
+    second: {fileID: 2800000, guid: 657244fc06ff6254c9ecc793316825fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pernas
+    second: {fileID: 2800000, guid: 1176b19bd8c452f4384cde23b6ae72bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: topo
+    second: {fileID: 2800000, guid: 94205e7ad8a7f9f4a974ec4f6ecbac1f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
