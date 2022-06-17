@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7331581220918692667}
   - component: {fileID: 6226452677110422239}
   - component: {fileID: 3448450407704855907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "ma\xE7aneta frente"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5170213866173119222}
   - component: {fileID: 7858162125416250648}
   - component: {fileID: 6897608401520926811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela inferior tras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 8479107585755985986}
   - component: {fileID: 2595443329219461632}
   - component: {fileID: 2750117006942323745}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 1091398139761079721}
   - component: {fileID: 1480256651357981322}
   - component: {fileID: 3024371293642658354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: porta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 3235656082532161476}
   - component: {fileID: 6989811495181836597}
   - component: {fileID: 8926885591417437140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela superior frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 6696947897651980760}
   - component: {fileID: 6407654760980762950}
   - component: {fileID: 6903166168938004263}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "ma\xE7aneta frente.001"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 7547636047721444286}
   - component: {fileID: 3319246802632267146}
   - component: {fileID: 4057490571514451086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela baixo tras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 326326973115936829}
   - component: {fileID: 8304565295214686191}
   - component: {fileID: 6185819259519818410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela meio tras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5354354499555307193}
   - component: {fileID: 100033084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 8113794111865595462}
   - component: {fileID: 2581751670020751640}
   - component: {fileID: 5992072146440441311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela inferior frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 7953639389453420247}
   - component: {fileID: 1479455082922570259}
   - component: {fileID: 7955980519081186394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela superior tras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 6170949277224422629}
   - component: {fileID: 2578543738556802795}
   - component: {fileID: 4026234717430463642}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: topo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 5681345873126476840}
   - component: {fileID: 80736598167370163}
   - component: {fileID: 2093198651081740324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela baixo frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ GameObject:
   - component: {fileID: 4415146950997971275}
   - component: {fileID: 8712439153047216553}
   - component: {fileID: 7798541224517849805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: janela meio frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
