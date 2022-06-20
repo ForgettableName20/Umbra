@@ -13,7 +13,8 @@ public class LampTeleport : MonoBehaviour
     public GameObject Trigger;
     public GameObject ItemCamera;
     public GameObject Crosshair;
-    public GameObject NextObject;
+    public GameObject NextObjectInteractable;
+    public GameObject BaseObject;
 
     public AudioSource PlaceObject;
 
@@ -36,11 +37,14 @@ public class LampTeleport : MonoBehaviour
             Crosshair.SetActive(true);
 
             cam.cullingMask = -1;
+            cam.cullingMask &= ~(1 << LayerMask.NameToLayer("Chair"));
 
-            NextObject.transform.localPosition = new Vector3(-42.4099998f, -0.189999998f, -20.3299999f);
+            NextObjectInteractable.SetActive(true);
 
-            boxColx = NextObject.GetComponent<BoxCollider>();
+            boxColx = NextObjectInteractable.GetComponent<BoxCollider>();
             boxColx.enabled = true;
+
+            BaseObject.SetActive(false);
 
 
         }
