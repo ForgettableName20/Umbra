@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 12b61524524df244888034bbbe675804
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camada em volta D
+    second: {fileID: 2100000, guid: 5a233870accf7d64bad20f24b800bda2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camada em volta E
+    second: {fileID: 2100000, guid: e5a9654924316dd438fea5bf180a781e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camada total
+    second: {fileID: 2100000, guid: 0dd5efe37a810da40b039d8a9396761e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fundo superior
+    second: {fileID: 2100000, guid: a92f13570b0357740a582f2f6c45184b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ma\xE7anetas"
+    second: {fileID: 2100000, guid: 08fc42aea88b6cf40b3df3b5502a554b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parte de dentro porta direita_
+    second: {fileID: 2100000, guid: b32587fad18384e45b47372adfbfa200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parte de dentro porta esquerda_
+    second: {fileID: 2100000, guid: 4b393b9a2b031db4d915c2cbb83e3881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: porta vidro
+    second: {fileID: 2100000, guid: 5ec272d60e0c88e4394c38a4ff320cbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro central
+    second: {fileID: 2100000, guid: 78e0df926be607c43bef97a58f438396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro superior D
+    second: {fileID: 2100000, guid: d48ad15801d57a84d85fd3aee819c25c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro superior E
+    second: {fileID: 2100000, guid: e5a75719793676048b6c9b90d148c274, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta D_BaseColor
+    second: {fileID: 2800000, guid: 9174e97a8f0fd994cb45cdd489060d52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta D_Metallic
+    second: {fileID: 2800000, guid: 3afc73a11bc730245bbc25ac902abdb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta D_NormalOpenGL
+    second: {fileID: 2800000, guid: 033004c2d85590c46ad07eb682c04712, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta D_Roughness
+    second: {fileID: 2800000, guid: 4436cbdd4d058c943a5dcbf53628dd92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta E_BaseColor
+    second: {fileID: 2800000, guid: 21c65000a0d1e0e488eb01c477f22e3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta E_Metallic
+    second: {fileID: 2800000, guid: 30c106c8b1a1dfb40b41a53469fae99c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta E_NormalOpenGL
+    second: {fileID: 2800000, guid: 24aa726761f79434097dbd770444a917, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada em volta E_Roughness
+    second: {fileID: 2800000, guid: ce2d7099002aec140919797ca1f13fa2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada total_BaseColor
+    second: {fileID: 2800000, guid: a465523d9b617c741a13483e55515d3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada total_Metallic
+    second: {fileID: 2800000, guid: e2d18a04d48bdcf4c984a4de71316a9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada total_NormalOpenGL
+    second: {fileID: 2800000, guid: 7d84ca9ab649d8a42a4090bbe4f62189, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_Camada total_Roughness
+    second: {fileID: 2800000, guid: ad89a506fcf989c469985c00f6816056, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_fundo superior_BaseColor
+    second: {fileID: 2800000, guid: faf3fdfa1fce6754192f018fc90f609c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_fundo superior_Metallic
+    second: {fileID: 2800000, guid: 8cc05e51b64364f4eac9efdc2ae4e894, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_fundo superior_NormalOpenGL
+    second: {fileID: 2800000, guid: 59a5e9eb51321704a9bb59e1d34b8f9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_fundo superior_Roughness
+    second: {fileID: 2800000, guid: 275f9b1ce664068469f29e63a85d14ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "porta_dupla_ma\xE7anetas_BaseColor"
+    second: {fileID: 2800000, guid: 638e831a8f4bca246b555cc3af69cfcf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "porta_dupla_ma\xE7anetas_Metallic"
+    second: {fileID: 2800000, guid: eb9dfb1acfa96164fb24c9ad7f839c69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "porta_dupla_ma\xE7anetas_NormalOpenGL"
+    second: {fileID: 2800000, guid: 0b80109614974e646aff056674009320, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "porta_dupla_ma\xE7anetas_Roughness"
+    second: {fileID: 2800000, guid: 68f8f913dd5349143b4cc8cd7042140a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta direita _BaseColor
+    second: {fileID: 2800000, guid: a03d64090bb924f44889d6d54c2b24fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta direita _Metallic
+    second: {fileID: 2800000, guid: 179c07bd7fee60443a3e0f0155fd2475, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta direita _NormalOpenGL
+    second: {fileID: 2800000, guid: cd7a1c575c7f58d41ac8914367a37274, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta direita _Roughness
+    second: {fileID: 2800000, guid: 47f87b975ad3398449b9a9d6f474b7d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta esquerda _BaseColor
+    second: {fileID: 2800000, guid: 05bd156f283fb244794472cfc9524a81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta esquerda _Metallic
+    second: {fileID: 2800000, guid: 4faef4ad3e1bba949be2461ed584152d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta esquerda _NormalOpenGL
+    second: {fileID: 2800000, guid: cf06f41ed01602a45949e3cd66745a0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_parte de dentro porta esquerda _Roughness
+    second: {fileID: 2800000, guid: 68b58e4a77bd9c84cb0aa6c1b31b64af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_porta vidro_BaseColor
+    second: {fileID: 2800000, guid: 5ac7b94ba1ea24542a55b6f707561b36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_porta vidro_Metallic
+    second: {fileID: 2800000, guid: bee72c87aec89494397760b3e62bd725, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_porta vidro_NormalOpenGL
+    second: {fileID: 2800000, guid: aa01eb3b46f9ffb44bd3232dd08897fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_porta vidro_Roughness
+    second: {fileID: 2800000, guid: 9749b76e5d1ffa44787ccab9e4042464, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro central_BaseColor
+    second: {fileID: 2800000, guid: 6fa7a529e848eb045b911431d414d5a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro central_Metallic
+    second: {fileID: 2800000, guid: 0c671bd7725be0249aa7b5e54a8bc306, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro central_NormalOpenGL
+    second: {fileID: 2800000, guid: c21be9c3125d763489c09b009ff44042, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro central_Roughness
+    second: {fileID: 2800000, guid: cf1c315d7f9eb8a4c8ad489cc4bfc8b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior D_BaseColor
+    second: {fileID: 2800000, guid: bf1aeeeee286785489781bd26f852d0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior D_Metallic
+    second: {fileID: 2800000, guid: 9e82f5f7dab40414899bc643bc8eb774, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior D_NormalOpenGL
+    second: {fileID: 2800000, guid: 57d628164fdde6d4a88fa501c2c07cfa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior D_Roughness
+    second: {fileID: 2800000, guid: 8653be5a1ee549a4882a4bf39b8046f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior E_BaseColor
+    second: {fileID: 2800000, guid: c09df30e1c0eccf44aafca3e4ce39679, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior E_Metallic
+    second: {fileID: 2800000, guid: 875ad20f47477db409a323dfb58c5d38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior E_NormalOpenGL
+    second: {fileID: 2800000, guid: 6746f93601cf19647a005f976f319c92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porta_dupla_vidro superior E_Roughness
+    second: {fileID: 2800000, guid: eb19c183b4838fb4caac0998306d7f24, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

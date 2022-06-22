@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class ChairTeleport : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private BoxCollider boxCol;
 
-    // Update is called once per frame
-    void Update()
+    public GameObject ObjectPlaced;
+    public GameObject ObjectHolded;
+    public GameObject Trigger;
+
+    public AudioSource PlaceObject;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Chair"))
+        {
+            Debug.Log("Trigger");
+
+            ObjectPlaced.SetActive(true);
+            ObjectHolded.SetActive(false);
+            Trigger.SetActive(false);
+
+            boxCol = ObjectPlaced.GetComponent<BoxCollider>();
+            boxCol.enabled = !boxCol.enabled;
+
+            PlaceObject.Play();
+        }
     }
 }

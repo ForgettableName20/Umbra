@@ -8,6 +8,7 @@ TagManager:
   - PlayerObject
   - Trash
   - Lamp
+  - Chair
   layers:
   - Default
   - TransparentFX
