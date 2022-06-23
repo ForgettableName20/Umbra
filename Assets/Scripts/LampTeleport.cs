@@ -25,8 +25,8 @@ public class LampTeleport : MonoBehaviour
             //Debug.Log("Picked Up!");
 
             Lamp.transform.parent = null;
-            Lamp.transform.rotation = Quaternion.Euler(-90, 90, -90);
-            Lamp.transform.localPosition = new Vector3(24.868f, -5.11000013f, -12.467f);
+            Lamp.transform.rotation = Quaternion.Euler(0, 0, 0);
+            Lamp.transform.localPosition = new Vector3(24.7609997f, -4.95100021f, -12.5120001f);
             PlaceObject.Play();
 
             boxCol = Lamp.GetComponent<BoxCollider>();
@@ -45,8 +45,6 @@ public class LampTeleport : MonoBehaviour
             boxColx.enabled = true;
 
             BaseObject.SetActive(false);
-
-
         }
     }
 }

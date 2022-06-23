@@ -35,8 +35,8 @@ public class TrashBinTeleport : MonoBehaviour
             ItemCamera.SetActive(false);
             Crosshair.SetActive(true);
 
-            NextObject.transform.localPosition = new Vector3(-48.7509995f, -0.933000028f, -4.33400011f);
-            NextObject.transform.rotation = Quaternion.Euler(338.401611f, 90f, 270f);
+            NextObject.transform.localPosition = new Vector3(-48.7509995f, -0.966000021f, -4.33400011f);
+            NextObject.transform.rotation = Quaternion.Euler(340.670197f, 90, 270);
 
             boxColLamp = NextObject.GetComponent<BoxCollider>();
             boxColLamp.enabled = true;

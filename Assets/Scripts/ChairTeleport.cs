@@ -16,7 +16,7 @@ public class ChairTeleport : MonoBehaviour
     {
         if (other.CompareTag("Chair"))
         {
-            Debug.Log("Trigger");
+            //Debug.Log("Trigger");
 
             ObjectPlaced.SetActive(true);
             ObjectHolded.SetActive(false);
