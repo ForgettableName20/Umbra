@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c49b7cdbf1bf7e54cb386fef86c456e0
+guid: 83609af7df62b0d4dbbf9ea2dd8ecfe3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 43c78a50da2a0e24ebe9460b566a3a8e, type: 2}
+      name: mesa hospital
+    second: {fileID: 2100000, guid: 8a05bd0c9d3065840a587ff34ef9ebb8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesa hospital
+    second: {fileID: 2800000, guid: 9602735e494e7aa4eba5ef99e1083ff5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

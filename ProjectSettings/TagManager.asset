@@ -9,6 +9,7 @@ TagManager:
   - Trash
   - Lamp
   - Chair
+  - Wheelchair
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Lamp
   - InspectObj
   - Chair
-  - 
+  - Wheelchair
   - 
   - 
   - 

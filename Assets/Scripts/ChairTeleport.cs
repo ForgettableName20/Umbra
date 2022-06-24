@@ -9,6 +9,7 @@ public class ChairTeleport : MonoBehaviour
     public GameObject ObjectPlaced;
     public GameObject ObjectHolded;
     public GameObject Trigger;
+    public GameObject NextObjectInteractable;
 
     public AudioSource PlaceObject;
 
@@ -26,6 +27,8 @@ public class ChairTeleport : MonoBehaviour
             boxCol.enabled = !boxCol.enabled;
 
             PlaceObject.Play();
+
+            NextObjectInteractable.SetActive(true);
         }
     }
 }
