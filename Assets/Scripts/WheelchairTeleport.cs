@@ -2,21 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChairTeleport : MonoBehaviour
+public class WheelchairTeleport : MonoBehaviour
 {
     private BoxCollider boxCol;
 
     public GameObject ObjectPlaced;
     public GameObject ObjectHolded;
     public GameObject Trigger;
-    public GameObject NextObjectInteractable;
-    public GameObject BaseObject;
 
-    public AudioSource PlaceObject;
+    public Animator exitDoorAnim = null;
+
+    public AudioSource PortalSound;
+    public AudioSource DoorSound;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Chair"))
+        if (other.CompareTag("Wheelchair"))
         {
             //Debug.Log("Trigger");
 
@@ -27,11 +28,10 @@ public class ChairTeleport : MonoBehaviour
             boxCol = ObjectPlaced.GetComponent<BoxCollider>();
             boxCol.enabled = !boxCol.enabled;
 
-            PlaceObject.Play();
+            PortalSound.Play();
+            DoorSound.Play();
 
-            NextObjectInteractable.SetActive(true);
-
-            BaseObject.SetActive(false);
+            exitDoorAnim.Play("ExitDoor", 0, 0.0f);
         }
     }
 }
